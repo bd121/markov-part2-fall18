@@ -2,7 +2,7 @@ import java.util.*;
 
 public class EfficientWordMarkov extends BaseWordMarkov {
 
-	public Map<WordGram, ArrayList<String>> myMap;
+	private Map<WordGram, ArrayList<String>> myMap;
 	//public String[] myText;
 
 	

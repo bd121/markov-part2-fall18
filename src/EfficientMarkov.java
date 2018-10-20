@@ -22,7 +22,7 @@ public class EfficientMarkov extends BaseMarkov {
 			key = myText.substring(k, k + myOrder);
 			String next = "";
 			if (k + myOrder == myText.length()) {
-				next = "EOS";
+				next = PSEUDO_EOS;
 			} else {
 			next = myText.substring(k + myOrder, k + myOrder + 1);
 			}
